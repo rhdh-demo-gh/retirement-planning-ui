@@ -1,0 +1,5 @@
+site_name: retirement-planning-ui
+site_description: retirement-planning-ui
+
+plugins:
+  - techdocs-core

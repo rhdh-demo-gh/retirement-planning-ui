@@ -1,0 +1,16 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: retirement-planning-ui
+  description: UI for the retirement planning feature
+  annotations:
+    argocd/app-name: retirement-planning-ui
+    backstage.io/kubernetes-id: retirement-planning-ui
+    backstage.io/kubernetes-label-selector: 'app.kubernetes.io/instance=retirement-planning-ui'
+    backstage.io/techdocs-ref: dir:.
+    github.com/project-slug: rhdh-demo-gh/retirement-planning-ui
+spec:
+  type: website
+  system: system:default/customer-account-management
+  lifecycle: dev
+  owner: group:default/core-team
