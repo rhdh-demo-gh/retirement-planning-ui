@@ -9,6 +9,10 @@ metadata:
     backstage.io/kubernetes-label-selector: 'app.kubernetes.io/instance=retirement-planning-ui'
     backstage.io/techdocs-ref: dir:.
     github.com/project-slug: rhdh-demo-gh/retirement-planning-ui
+  tags:
+    - nextjs
+    - nodejs
+    - ui
 spec:
   type: website
   system: system:default/customer-account-management
